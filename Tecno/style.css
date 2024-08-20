@@ -1,0 +1,433 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    margin-inline: 10px;
+    background: rgba(0, 0, 0, 0.766);
+    color: #fff;
+    background-image: url(image/background1.jpeg);
+    
+}
+#yello{
+    width: 100%;
+    padding: 1px;
+    background-color: yellow;
+}
+#sub1{
+ 
+ background-color: yellow;
+ font-size: 20px;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ border-radius: 7px;
+ margin: 1px;
+}
+#but{
+  display: flex;
+  justify-content: flex-end;
+  size: 300px;
+}
+.container{
+    padding:5px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: warp;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 5px 100px; 
+    justify-content: space-between;
+    justify-content: center;
+}
+nav ul li a{
+    color: #09d1c086;
+    text-decoration: none;
+    font-size: 45px;
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav ul li a::after{
+    content: '';
+    width: 0%;
+    height: 4px;
+    background: yellow ;
+    position: absolute;
+    left:0;
+    bottom:-6px;
+    transition:0.5s;
+    color: #09d1c086;
+}
+nav ul li a:hover::after{
+    width: 100%;
+    
+
+}
+nav ul li a:hover{
+    color: #fff;
+}
+
+#header{
+    width: 100%;
+    height: 100%;
+    background-image: url(image/background1.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: fixed;
+}
+#logo{
+    display: block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#twitter
+{
+    color: yellow;
+display: flex;
+justify-content: flex-end;
+}
+#twitter a{
+    text-decoration: none;
+    color: #09d1c086;
+    size: 10px;
+}
+#twitter a:hover{
+    color: #fff;
+}
+#break{
+    margin: 10px;
+    background-color: #09d1c086;
+    padding: 0.1px;
+    width: 100%;
+    height: 1px;
+}
+#text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: left;
+    font-size: 30px;
+}
+#text p{
+    
+    color: yellow;
+    
+}
+
+#shirt1{
+    padding: 10px 0px;
+    display: flex;
+   justify-content: space-between; 
+}
+.yellows
+{
+border-radius: 100px;
+}
+.yellowshirt1{
+    padding: 20px;
+    text-align: left;
+}
+.yellowshirt1 h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    font-size: 100px;
+}
+.yellowshirt1 h3{
+    color: yellow;
+}
+.yellowshirt1 p{
+    color:#09d1c086;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 1px;
+}
+#sbreak{
+    margin: 10px;
+    background-color: #09d1c086;
+    padding: 0.1px;
+    width: 100%;
+    height: 1px;
+}
+#s2{
+ width: 455px;
+}
+#shirt2{
+    padding: 10px 0px;
+    display: flex;
+   justify-content: space-between; 
+}
+.Selection-box{
+    color: blanchedalmond;
+    background-color: #09d1c086;
+    text-decoration: none;
+    padding: 3px;
+    margin: 5px;
+}
+#but1{
+  font-size: 30px;
+  border-radius: 0px;
+}
+h3{
+ padding: 10px;
+}
+.chart{
+    padding: 20px;
+    margin: 10px;
+}
+h3{
+    color: yellow;
+}
+#bl{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#09d1c086 ;
+}
+#sub
+{
+    width: 100px;
+    height: 30px;
+    background-color: yellow;
+    color: red;
+    font-size: 15px;
+}
+name1
+{
+    display: flex;
+    padding: 20px;
+background-color:#09d1c086 ;
+}
+#page2shop{display: flex;
+justify-content: left;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+#page2shop img{
+    width: 600px;
+    height: 500px;
+    padding: 20px;
+}
+#discription{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#09d1c086;
+    
+   
+}
+#space{
+    padding: 20px;
+    margin: 20px;
+}
+
+h1{
+    color: yellow;
+   margin: 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#blog1 h5{
+    color: #81fff586;
+}
+#blog1 img{
+    width: 600px;
+    height: 700px;
+    padding: 20px;
+}
+
+#blog1{
+    display: flex;
+}
+ p{
+      color: #09d1c086;
+      size: 10px;
+}
+
+#ig1{
+    display: flex;
+}
+
+#img2{
+  padding: 20px;
+  justify-self: flex-end;
+  width: 3000px;
+}
+#img2 p{
+    padding: 10px;
+    
+}
+
+
+
+
+#last{
+    display:flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #09d1c086;
+  padding: 15 px;
+  text-decoration: none;
+  
+}
+#last a{
+    text-decoration: none;
+    color: #09d1c086;
+    justify-content: space-between;
+}
+#last a:hover{
+    color: #fff;
+}
+#last2{
+    color: #09d1c086;
+    display:flex;
+    justify-content: flex-start;
+}
+h5{
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #09d1c086;
+    
+}
+#last3{
+    display: flex;
+    justify-content: flex-end;
+}
+#tt{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+}
+#last3 a{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: yellow;
+}
+#ut{
+    display: none;
+}
+#ut1{
+    display: none;
+}
+#chart img{
+    width: 500px;
+}
+@media only screen and (max-width: 600px)
+{
+    body{
+        background-image: url(image/background1.jpeg);
+    }
+    #yello{
+        width: 100%;
+    }
+    #sub1{
+        display: flex;
+        justify-content: flex-start 50px;
+
+    }
+
+    #logo{
+       width: 200px;
+      justify-content: center;
+      position: center;
+       
+    }
+    #but{
+        justify-content: flex-start;
+    }
+    nav ul li a{
+        font-size: 30px;
+
+    }
+    #ut{
+        display: block;
+        font-size: 25px;
+
+    }
+    #ut1{
+        display: block;
+        font-size: 15px;
+    }
+    nav ul{
+        background:rgb(6, 6, 0);
+        position:fixed;
+        top: 0;
+        left: -200px;
+      
+        width: 200px;
+        height: 100vh;
+        padding-top: 20px;
+        z-index: 2x;
+    }
+    nav ul li{
+        display: block;
+        margin: 25px;
+    }
+    #ut{
+        position: absolute;
+        top: 10px;
+        left:25px;
+        cursor: pointer;
+    }
+    #ut1{
+        margin-top: 20px;
+        left: 0;
+        
+        top: 10px;
+        left:25px;
+        cursor: pointer;
+        font-size: 30px;
+    }
+   #twitter{
+    justify-content: flex-start;
+   }
+   #text{
+    font-size: 20px;
+   }
+   #shirt1{
+    display: block;
+   }
+   #yellows{
+     width: 200px;
+   }
+   #chart img{
+    width: 300px;
+   }
+   #shirt2{
+    display: block;
+   }
+   #s2{
+    width: 200px;
+   }
+   #page2shop {
+    display: block;
+   }
+   #page2shop img{
+    width: 350px;
+    height: 300px;
+   }
+   #text{
+     font-size: 20px;
+   }
+   #blog1 img{
+    width: 300px;
+    height: 400px;
+   }
+   
+   #blog1{
+    display: block;
+   }
+   #ig1{
+    display: block;
+    font-size: 15px;
+   }
+   #ig1 img{
+    width: 300px;
+   }
+   #img2 p{
+    display: inline-block;
+   }
+   #bl{
+     display: inline-block;
+   }
+
+}
