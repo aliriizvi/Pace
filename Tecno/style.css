@@ -6,9 +6,10 @@
 }
 body{
     margin-inline: 10px;
-    background: rgba(0, 0, 0, 0.766);
-    color: #fff;
     background-image: url(image/background1.jpeg);
+    color: #fff;
+    background-color: black;
+   
     
 }
 #yello{
@@ -35,7 +36,7 @@ body{
 nav{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: warp;
 }
 
@@ -76,10 +77,10 @@ nav ul li a:hover{
 #header{
     width: 100%;
     height: 100%;
-    background-image: url(image/background1.jpeg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: fixed;
+   
+    
+    
+   
 }
 #logo{
     display: block;
@@ -311,22 +312,69 @@ h5{
 #chart img{
     width: 500px;
 }
-@media only screen and (max-width: 600px)
+
+
+
+@media only screen and (max-width: 1200px)
 {
-    body{
-        background-image: url(image/background1.jpeg);
+    #yello{
+      width: 100%;
+    }
+    #but{
+        justify-content: flex-start;
+    }
+    #twitter{
+        justify-content: flex-start;
+       }
+      #break{
+        width:100%;
+       }
+       
+       
+}
+@media only screen and (max-width: 1000px)
+{
+    #shirt1{
+      display: block;
+    }
+    #shirt2{
+        display: block;
+    }
+    #page2shop{
+        display: block;
+       }
+       #blog1{
+        display: block;
+       }
+       #ig1{
+        display: block;
+      }
+      #img2{
+       display: block;
+       
+      }
+      
+}
+@media only screen and (max-width: 700px )
+{
+   
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins',sans-serif;
+        box-sizing: border-box;
     }
     #yello{
         width: 100%;
     }
     #sub1{
         display: flex;
-        justify-content: flex-start 50px;
+        justify-content: flex-start ;
 
     }
 
     #logo{
-       width: 200px;
+       width: 250px;
       justify-content: center;
       position: center;
        
@@ -345,15 +393,19 @@ h5{
     }
     #ut1{
         display: block;
-        font-size: 15px;
+        font-size: 150px;
+    }
+    nav{
+        width: 10px;
+        
     }
     nav ul{
         background:rgb(6, 6, 0);
         position:fixed;
         top: 0;
-        left: -200px;
-      
-        width: 200px;
+        left: -300px;
+        
+        width: 300px;
         height: 100vh;
         padding-top: 20px;
         z-index: 2x;
@@ -387,7 +439,8 @@ h5{
     display: block;
    }
    #yellows{
-     width: 200px;
+     width: 400px;
+     margin-left:  80px;
    }
    #chart img{
     width: 300px;
@@ -396,21 +449,23 @@ h5{
     display: block;
    }
    #s2{
-    width: 200px;
+    width: 400px;
+     margin-left:  80px;
    }
    #page2shop {
     display: block;
    }
    #page2shop img{
-    width: 350px;
-    height: 300px;
+    width: 500px;
+     margin-left:  50px;
+     padding: 30px;
    }
    #text{
      font-size: 20px;
    }
    #blog1 img{
-    width: 300px;
-    height: 400px;
+    width: 400px;
+     margin-left:  80px;
    }
    
    #blog1{
@@ -421,16 +476,19 @@ h5{
     font-size: 15px;
    }
    #ig1 img{
-    width: 300px;
+    width: 400px;
+     margin-left:  80px;
    }
-   #img2 p{
-    display: inline-block;
+   #img2{
+    display: block;
    }
+   
    #bl{
      display: inline-block;
    }
-    #tt{
-        display:block;
-    }
+   #tt{
+    display:block;
+    
+     }
 
 }
